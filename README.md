@@ -1,23 +1,22 @@
-# Решатель квадратных уравнений
+# Solver of quadratic equations 
 
-[TODO. Здесь будет описание проекта]
+This script was created for solving quadratic equation and getting its roots.
 
-# Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
+# How to use
 
-# Как запустить
-
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
-
-```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+Use python-cli for getting results:
+```
+>>> import quadratic_equation
+>>> quadratic_equation.get_roots(1, 2, -3)
+(-3.0, 1.0)
+>>> quadratic_equation.get_roots(2, 1, 3)
+(None, None)
+>>> quadratic_equation.get_roots(2, 1, -1)
+(-1.0, 0.5)
+>>> 
 ```
 
-Запуск на Windows происходит аналогично.
+# Progect goals
 
-# Цели проекта
-
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+The code is written for educational purposes. Training course for web-developers ― [DEVMAN.org](https://devman.org)
